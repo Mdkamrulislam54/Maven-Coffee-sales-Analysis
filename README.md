@@ -1,5 +1,6 @@
 # Maven-Coffee-sales-Analysis
 
+-- Table
 CREATE TABLE IF NOT EXISTS transactions (
     transaction_id INT PRIMARY KEY AUTO_INCREMENT,
     transaction_date DATE NOT NULL,
@@ -13,3 +14,4 @@ CREATE TABLE IF NOT EXISTS transactions (
     product_type VARCHAR(100),
     product_detail VARCHAR(100)
 );
+
