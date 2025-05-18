@@ -2,16 +2,9 @@
 
 -- Table
 
-CREATE TABLE IF NOT EXISTS transactions (
-    transaction_id INT PRIMARY KEY AUTO_INCREMENT,
-    transaction_date DATE NOT NULL,
-    transaction_time TIME NOT NULL,
-    transaction_qty INT NOT NULL CHECK (transaction_qty >= 0),
-    store_id INT NOT NULL,
-    store_location VARCHAR(100),
-    product_id INT NOT NULL,
-    unit_price DECIMAL(10, 2) NOT NULL CHECK (unit_price >= 0),
-    product_category VARCHAR(50),
-    product_type VARCHAR(100),
-    product_detail VARCHAR(100)
-);
+![image](https://github.com/user-attachments/assets/e290a9b0-a320-4c73-9518-69261acdf524)
+
+
+![image](https://github.com/user-attachments/assets/a34933e6-0b25-4d72-b212-792d2b19b8c0)
+
+
